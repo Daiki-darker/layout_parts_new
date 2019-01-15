@@ -41,25 +41,28 @@
   align-items: center
 }
 
-.is-stable{
-  position: relative;
-}
-.q6__box__inner{}
- .top {
+
+ .left {
   position: absolute;
   top: 0;
-  right: 0;
+  right:0;
   left: 0;
   bottom: 0;
   margin: auto;
 }
-.bottom {
+
+.right {
   position: absolute;
   top: 50%;
   left: 50%;
   transform:translateY(-50%) translateX(-50%) ;
-  -webkit-tranform: translateY(-50%) translateX(-50%);
+  /* -webkit-tranform: translateY(-50%) translateX(-50%); */
 }
+
+.is-stable{
+  position: relative;
+}
+
 .is-flexible{
   position: relative;
 }

@@ -6,22 +6,19 @@
   display: block;
   clear :both;
 }
-.q8--btn .overall-btn {
+.btn {
   display: inline-block;
   margin-right: 10px;
 }
-.q8--btn .small-btn {
+.small-btn {
   height: 26px;
   line-height: 26px;
   padding-left: 15px;
   padding-right: 15px;
   font-size: 16px;
   border-radius: 3px;
-  /* display: inline-block;
-  margin-right: 10px;
-  border-radius: 3px; */
 }
-.q8--btn .middle-btn {
+.middle-btn {
   height: 32px;
   line-height: 32px;
   padding-left:20px;
@@ -29,7 +26,7 @@
   font-size: 20px;
   border-radius: 5px;
 }
-.q8--btn .large-btn {
+.large-btn {
   height:  38px;
   line-height: 38px;
   padding-left: 25px;
@@ -53,10 +50,10 @@
   color: #222;
   box-shadow : 0 1px 4px rgba(0,0,0,.12), 0 1px 6px rgba(0,0,0,.12);
 }
-.q8--btn .overall-btn:last-child {
+.q8--btn .btn:last-child {
   margin-right: 0;
 }
-.q8--btn .hand:hover {
+.hand:hover {
   cursor: pointer;
 }
 
@@ -67,10 +64,12 @@
   background-color:#ecf1f2 ;
   padding: 20px;
 }
+
 .q8__form__title {
   margin-bottom: 20px;
   position: relative;
 }
+
 .q8__form__title:before {
   position: absolute;
   top: 50%;
@@ -80,6 +79,7 @@
   width: 100%;
   content: "";
 }
+
 .q8__form__title__text {
   position: relative;
   display: inline-block;
@@ -89,13 +89,16 @@
   font-weight: bold;
   padding-right: 10px;
 }
+
 .q8__form__main {
   width: 300px;
   float: left;
 }
+
 .q8__main__content {
   margin-bottom: 20px;
 }
+
 .q8__main__content__title {
   width: 100px;
   text-align: right;
@@ -103,6 +106,7 @@
   font-size: 16px;
   line-height: 25px;
 }
+
 .q8__text__common__style {
   background-color: #fff;
   border: none;
@@ -115,13 +119,16 @@
   float: right;
   width: 180px;
 }
+
 .q8__text__common__style:focus{
   box-shadow: 0 0 7px #00bcd4;
 }
+
 .q8__gender__style{
 float: right;
 width: 180px;
 }
+
 .q8__select__style {
   border: none;
   line-height: 12px;
@@ -134,11 +141,13 @@ width: 180px;
   -webkit-appearance: none;
   cursor: pointer;
 }
+
 .q8__select__container {
   float:right;
   display: inline-block;
   position: relative;
 }
+
 .q8__select__container::after {
   display: block;
   position: absolute;
@@ -153,9 +162,11 @@ width: 180px;
   content: "";
   cursor: pointer;
 }
+
 .q8__radio__style {
   display: none;
 }
+
 .gender__text {
   font-size: 16px;
   line-height: 16px;
@@ -165,9 +176,11 @@ width: 180px;
   box-sizing: border-box;
   cursor:pointer;
 }
+
 .q8__gender__label {
   position: relative;
 }
+
 .q8__gender__label::before {
   position: absolute;
   top: 50%;
@@ -181,6 +194,7 @@ width: 180px;
   content: "";
   cursor: pointer;
 }
+
 .q8__radio__style:checked + .q8__gender__label::after {
   position: absolute;
   top: 50%;
@@ -192,20 +206,25 @@ width: 180px;
   background-color: #00bcd4;
   content: "";
 }
+
 .q8__main__list {
   margin-top: 20px;
 }
+
 .q8__main__list:first-child {
   margin-top: 0;
 }
+
 .q8__checkbox {
   width: 180px;
   float: right;
   text-align: right;
 }
+
 .q8__checkbox__btn {
   display: none;
 }
+
 .q8__checkbox__text {
   font-size: 16px;
   line-height: 16px;
@@ -213,6 +232,7 @@ width: 180px;
   position: relative;
   padding-left: 24px;
 }
+
 .q8__checkbox__text::before {
   position: absolute;
   top: 50%;
@@ -224,6 +244,7 @@ width: 180px;
   background-color: white;
   content : "";
 }
+
 .q8__checkbox__btn:checked + .q8__checkbox__text::after {
   position: absolute;
   top: 50%;
@@ -235,8 +256,8 @@ width: 180px;
   height:16px;
   width:8px;
   content : "";
-
 }
+
 .q8__submit__btn {
   float: right;
   background-color: #00bcd4;
@@ -248,12 +269,14 @@ width: 180px;
   cursor: pointer;
   border: none;
 }
+
 .q8__submit__btn:active {
   background-color: #fff;
   color:#00bcd4;
   border: none;
   outline:none;
 }
+
 .importants {
   color: red;
 }
@@ -262,6 +285,7 @@ width: 180px;
   width: 380px;
   float: right;
 }
+
 .q8__form__textarea {
   width: 380px;
   height: 203px;
@@ -274,13 +298,12 @@ width: 180px;
   background-color: #fff;
   outline: none;
 }
+
 .q8__form__textarea:focus {
   box-shadow : 0 0 7px #00bcd4;
 }
 /*
-.q8__boxstyle__reset {
-  display: none;
-} */
+
 
 
 
