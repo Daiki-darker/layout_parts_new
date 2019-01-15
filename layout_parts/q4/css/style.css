@@ -4,15 +4,15 @@
 
 .q4__wrapper {
   background-color: #eff3f4;
-  padding: 20px
+  padding: 20px;
 }
-
-.q4__container {
-  display: table;
+.q4__boxes {
   text-align: center;
   width: 100%;
+  display: table;
 }
-.top__box {
+
+.q4__boxes:first-child {
   margin-bottom: 20px;
 }
 

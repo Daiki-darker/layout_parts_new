@@ -27,7 +27,7 @@
 .q3__table__body > tr:last-child {
   border-top: 2px dashed #000;
 }
-.q3__table th:first-child {
+.q3__table__wrapper th{
   background-color: #2244aa;
 }
 .q3__table__body tr:nth-child(2n) {
