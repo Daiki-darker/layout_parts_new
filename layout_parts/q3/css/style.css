@@ -6,13 +6,11 @@
   border : 1px solid #dedede;
   table-layout: fixed;
 }
-.q3__headline:first-child {
-  background-color: #2244aa;
-}
 .q3__table__wrapper th {
   color: white;
   font-size: 18px;
   line-height: 26px;
+  background-color: #2244aa;
 }
 .q3__table__wrapper td{
   line-height: 22px;
@@ -26,9 +24,6 @@
 }
 .q3__table__body > tr:last-child {
   border-top: 2px dashed #000;
-}
-.q3__table__wrapper th{
-  background-color: #2244aa;
 }
 .q3__table__body tr:nth-child(2n) {
   background-color: #ecf1f2;
